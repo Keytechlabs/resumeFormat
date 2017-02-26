@@ -1,0 +1,249 @@
+/*======================================================
+Topbar
+=======================================================*/
+
+
+.ul {
+    list-style-type:none;
+}
+#topBar {
+	background-color: rgb(21,61,96);
+	width:100%;
+	height:100%;
+	padding:5px;
+}
+#logo {
+	padding: 0px 10px 20px 10px;
+	width: 250px;
+	height:30px;
+	background-color: rgb(21,61,96);
+	position: relative;
+	left:20px;
+
+}
+
+/*#logo p:nth-child(n) {
+	width:100%;
+	height:100%;
+	position: relative;
+	left: 55px;
+	font-size:16px;
+	color:white;
+}*/
+
+
+.fgaLogo {
+  position: relative;
+  top: 4px;
+	width: 250px;
+	height:45px;
+	left:0px;
+}
+
+/*================================
+career objective
+=================================*/
+
+
+
+
+
+/*======================================
+             icon section
+========================================*/
+
+.iconSection{
+  display: inline-block;
+  width:100%;
+  /*border-style:solid;
+  border-color:black;*/
+}
+
+
+.iconSection span {
+  display:inline- block;
+  margin-bottom: 70px;
+}
+
+
+/*.iconSections2{
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}*/
+
+
+.iconButtons{
+  display: inline-block;
+ /* border-style:solid;
+  border-color:black;*/
+  border-radius: 50px;
+  width:  100px;
+  height: 100px;
+  background-color: rgb(41,169,216);
+  margin-right:5%;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+
+.iconButtonsGrey {
+  display: inline-block;
+ /* border-style:solid;
+  border-color:black;*/
+  border-radius: 50px;
+  width:  100px;
+  height: 100px;
+  background-color: blue;
+  margin-right:5%;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+
+.imgIcon {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 92%;
+  height: 92%;
+  border-radius: 50px;
+  z-index:0;
+  visibility:visible;
+
+}
+
+.imgIcon2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 92%;
+  height: 92%;
+  border-radius: 50px;
+  visibility:visible;
+  z-index:0;
+}
+
+.imgIcon2:hover {
+	visibility: hidden;
+	
+}
+
+.imgIcon:hover {
+	visibility: visible;
+	
+}
+
+
+
+.fullName {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+
+
+.resume {
+  color: black;
+  position: relative;
+  top: 25%;
+  text-align: center;
+  font-size: 11px;
+}
+
+
+.videoText {
+  position: relative;
+  top: 20px;
+  left: 25px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  font-size:10px;
+  color: white;
+
+}
+
+.fullNameVideo{
+  position: relative;
+  top: 75%;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+
+
+.resumeVideo {
+  color: black;
+  position: relative;
+  top: 65%;
+  text-align: center;
+  font-size: 11px;
+}
+
+.company {
+  display: inline-block;
+
+}
+.companyTitle {
+  display: inline-block;
+}
+
+.workDates {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+
+/*================================================
+Footer
+=================================================*/
+#footer {
+	width:100%;
+	height:100%;
+  background-color: rgb(21,61,96);
+	padding: 20px 0px 40px 0px;
+	color: rgb(247,250,255);
+}
+
+#copyRight {
+width:70%;
+height:100%;
+float:left;
+display: block;
+padding-left:10px;
+}
+
+#navBarBottom  {
+	position: relative;
+	font-size:10;
+	display: inline-block;
+	width: 25%;
+}
+
+#navBarBottom  li {
+	font-size:10;
+	display: inline;
+}
+#socailImages {
+	position:relative;
+	float: right;
+	right: 200px;
+	bottom: 30px;
+	clear:both;
+}
+#socailImages li{
+	display: inline;
+	padding: 10px;
+}
+#socailImages img{
+	width:20px;
+}
