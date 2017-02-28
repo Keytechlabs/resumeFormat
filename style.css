@@ -1,7 +1,9 @@
 /*======================================================
 Topbar
 =======================================================*/
-
+nav li {
+  display: inline-block;
+  }
 
 .ul {
     list-style-type:none;
@@ -44,7 +46,10 @@ Topbar
 career objective
 =================================*/
 
-
+.TitleName {
+  display: inline-block;
+  width: 50%;
+}
 
 
 
